@@ -38,11 +38,11 @@ Pull "Install macOS High Sierra" from folder 'Documents' to 'Applications' to in
 
 * Run the ISO creation script `create_iso_highsierra.sh` included in this folder. ~~Run it with `sudo`.~~
 
-```
-cd ~/OSX-KVM/HighSierra/
-./create_iso_highsierra.sh
-# input password when it pops out for sudo. 
-```
+  ```
+  cd ~/OSX-KVM/HighSierra/
+  ./create_iso_highsierra.sh
+  # input password when it pops out for sudo. 
+  ```
 
 * Copy the generated ISO image from your Mac's Desktop to your QEMU/KVM machine.
 
