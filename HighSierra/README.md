@@ -115,7 +115,7 @@ changes and exit the OVMF menu. Relaunch the `boot-macOS-HS.sh` script.
 
 * After booting, the initial language selection should show up.
 
-* After selecting the language, fire-up the Terminal program and prepare the
+* After selecting the language, fire-up the Terminal program (Click 'Utilities' --> 'Terminal' on top bar) and prepare the
   hard drive for installation.
 
   ```
@@ -128,7 +128,7 @@ changes and exit the OVMF menu. Relaunch the `boot-macOS-HS.sh` script.
 
   Thanks to https://tinyapps.org/blog/mac/ and xenadu02 for this tip.
 
-* When done, quit Terminal.
+* When done, quit Terminal. (Terminal --> Quit)
 
 * Now, you can continue with the installation as usual.
 
