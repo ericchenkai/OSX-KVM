@@ -27,6 +27,8 @@ SVM is required.
 
   If you are getting a partial installer from the Apple App Store, [follow the instructions here](http://osxdaily.com/2017/09/27/download-complete-macos-high-sierra-installer/) to get the full (5GB) version instead.
 
+Pull "Install macOS High Sierra" from folder 'Documents' to 'Applications' to install. 
+
 * Clone this repository. Files included in this repository are needed for ISO
   creation.
 
@@ -34,8 +36,13 @@ SVM is required.
   git clone https://github.com/kholia/OSX-KVM.git
   ```
 
-* Run the ISO creation script `create_iso_highsierra.sh` included in this
-  folder. Run it with `sudo`.
+* Run the ISO creation script `create_iso_highsierra.sh` included in this folder. ~~Run it with `sudo`.~~
+
+```
+cd ~/OSX-KVM/HighSierra/
+./create_iso_highsierra.sh
+# input password when it pops out for sudo. 
+```
 
 * Copy the generated ISO image from your Mac's Desktop to your QEMU/KVM machine.
 
