@@ -87,6 +87,7 @@ Pull "Install macOS High Sierra" from folder 'Documents' to 'Applications' to in
 * Create a virtual HDD image where macOS will be installed.
 
   ```
+  mkdir /var/lib/libvirt/macOS && cd $_
   qemu-img create -f qcow2 mac_hdd.img 128G
   ```
 
@@ -94,7 +95,7 @@ Pull "Install macOS High Sierra" from folder 'Documents' to 'Applications' to in
 
 
   ```
-  sudo ./clover-image.sh --iso Clover-v2.4k-4233-X64.iso --cfg clover/config.plist.stripped.qemu --img Clover.qcow2
+  sudo ./clover-image.sh --iso Clover-v2.4k-4297-X64.iso --cfg clover/config.plist.stripped.qemu --img Clover.qcow2
   ```
 
   Instead of building your own bootable Clover disk, you may use the included `Clover.qcow2` disk image.
